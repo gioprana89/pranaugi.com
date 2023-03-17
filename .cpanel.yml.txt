@@ -1,0 +1,8 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/pranaugi/public_html/indcomp.id
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp index.php $DEPLOYPATH
+	- /bin/cp -R gambar $DEPLOYPATH
+- /bin/cp -R hitung $DEPLOYPATH
